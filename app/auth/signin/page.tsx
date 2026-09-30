@@ -5,7 +5,7 @@ import { loginWithGitHub, loginWithGoogle } from "@/lib/auth"
 export default function SigninPage() {
     return(
         <div className="min-h-[calc(100vh-10rem)] flex items-center justify-center">
-            <div className="max-w-md w-full space-y-8 bg-[linear-gradient(71deg,_#fff,_#fff,_#cbcdd5)] p-8 rounded-xl shadow-lg mx-4">
+            <div className="max-w-md w-full space-y-8 bg-[linear-gradient(71deg,_#fff,_#fff,_#cbcdd5)] md:p-8 p-4 rounded-xl shadow-lg">
                 <div className="text-center">
                     <h2 className="text-base md:text-3xl font-bold text-gray-900 mb-2">
                         Welcome to the JobBoard</h2>

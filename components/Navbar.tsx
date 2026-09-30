@@ -15,8 +15,8 @@ export default function Navbar() {
     const [toggle, setToggle] = useState<boolean>(true);
 
     return(
-        <nav className="bg-white shadow-sm">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 md:block sm:hidden">
+        <nav className="fixed top-0 left-0 right-0 z-[9999] w-full bg-white shadow-sm">
+            <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 md:block sm:hidden">
                 <div className="flex justify-between h-16 relative">
                     <div className="flex">
                         <Link href="/" className="flex items-center">
@@ -188,7 +188,7 @@ export default function Navbar() {
                         </>
                         )
                         : 
-                        <div>
+                        <div className="flex items-center">
                             <svg  
                              className="w-5 h-5"
                             fill="gray-400"

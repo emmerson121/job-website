@@ -36,21 +36,14 @@ export default async function RootLayout({
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-delay="200"
-          suppressHydrationWarning
-        >
         <SessionProvider session={session}>
         <div className="min-h-screen bg-[#edeef1]">
           <Navbar />
-        <main className="container mx-auto px-4 py-8 md:py-8">
+        <main className="container mx-auto px-4 py-8 pt-25">
         {children}
         </main>
         </div>
         </SessionProvider>
-        </div>
       </body>
     </html>
   );
