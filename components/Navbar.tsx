@@ -7,8 +7,6 @@ import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons"
 import { useState } from "react";
 
-// import { logout} from "@/lib/auth";
-
 
 export default function Navbar() {
     const { data: session} = useSession();

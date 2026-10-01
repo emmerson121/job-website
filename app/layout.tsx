@@ -6,15 +6,6 @@ import SessionProvider from "@/components/SessionProvider";
 import { auth } from "@/auth";
 import "aos/dist/aos"
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
   title: "Job Posting Website",
